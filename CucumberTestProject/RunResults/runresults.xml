@@ -1,0 +1,123 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2020-01-10 15:08:57</RunStartTime>
+        <Timezone>India Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>UFT Developer Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2020-01-10 15:08:57</StartTime>
+            <Result>Failed</Result>
+            <Links/>
+            <Duration><![CDATA[00:02:01.660]]></Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName>LHTU05CG9232JQX</HostName>
+                <NumberOfCores>8</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>16227</TotalMemory>
+                <Locale><![CDATA[en-US]]></Locale>
+                <Timezone>India Standard Time</Timezone>
+                <User>mkhalil2</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>UFT Developer</ToolName>
+            <ToolVersion><![CDATA[15.0]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name><![CDATA[com.app]]></Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2020-01-10 15:08:58</StartTime>
+                <Result>Failed</Result>
+                <Links/>
+                <Duration><![CDATA[00:02:00.851]]></Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[com.app.UFTDeveloperTest]]></Name>
+                    <Description/>
+                    <StartTime>2020-01-10 15:08:58</StartTime>
+                    <Result>Failed</Result>
+                    <ErrorText><![CDATA[<pre>com.hp.lft.sdk.GeneralLeanFtException: launch browser timeout occurred
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createDefault(ReplayExceptionFactory.java:294)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:286)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:22)
+	at com.hp.lft.sdk.internal.web.BrowserErrorHandler.onError(BrowserErrorHandler.java:38)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.handleError(CommunicationClientImpl.java:222)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.send(CommunicationClientImpl.java:96)
+	at com.hp.lft.sdk.internal.web.BrowserFactoryHelper.doLaunchHelper(BrowserFactoryHelper.java:48)
+	at com.hp.lft.sdk.internal.web.BrowserFactoryHelper.doLaunch(BrowserFactoryHelper.java:40)
+	at com.hp.lft.sdk.web.BrowserFactory$BrowserFactoryInstance$1.invoke(BrowserFactory.java:135)
+	at com.hp.lft.sdk.web.BrowserFactory$BrowserFactoryInstance$1.invoke(BrowserFactory.java:132)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:120)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:97)
+	at com.hp.lft.sdk.web.BrowserFactory$BrowserFactoryInstance.launch(BrowserFactory.java:139)
+	at com.hp.lft.sdk.web.BrowserFactory.launch(BrowserFactory.java:42)
+	at com.app.WebStepOperations.a_user_goes_to_google(WebStepOperations.java:25)
+	at ✽.Given a user goes to google(web.feature:5)
+</pre>]]></ErrorText>
+                    <Links/>
+                    <Duration><![CDATA[00:02:00.851]]></Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="RunTimeError">
+                    <Data>
+                        <Name>launch browser timeout occurred</Name>
+                        <Description/>
+                        <StartTime>2020-01-10 15:10:58</StartTime>
+                        <Result>Failed</Result>
+                        <ErrorText><![CDATA[<pre>com.hp.lft.sdk.GeneralLeanFtException: launch browser timeout occurred
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createDefault(ReplayExceptionFactory.java:294)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:286)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:22)
+	at com.hp.lft.sdk.internal.web.BrowserErrorHandler.onError(BrowserErrorHandler.java:38)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.handleError(CommunicationClientImpl.java:222)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.send(CommunicationClientImpl.java:96)
+	at com.hp.lft.sdk.internal.web.BrowserFactoryHelper.doLaunchHelper(BrowserFactoryHelper.java:48)
+	at com.hp.lft.sdk.internal.web.BrowserFactoryHelper.doLaunch(BrowserFactoryHelper.java:40)
+	at com.hp.lft.sdk.web.BrowserFactory$BrowserFactoryInstance$1.invoke(BrowserFactory.java:135)
+	at com.hp.lft.sdk.web.BrowserFactory$BrowserFactoryInstance$1.invoke(BrowserFactory.java:132)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:120)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:97)
+	at com.hp.lft.sdk.web.BrowserFactory$BrowserFactoryInstance.launch(BrowserFactory.java:139)
+	at com.hp.lft.sdk.web.BrowserFactory.launch(BrowserFactory.java:42)
+	at com.app.WebStepOperations.a_user_goes_to_google(WebStepOperations.java:25)
+	at ✽.Given a user goes to google(web.feature:5)
+</pre>]]></ErrorText>
+                        <Links/>
+                        <Duration><![CDATA[00:00:00.000]]></Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>RunTimeError</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
